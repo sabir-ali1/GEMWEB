@@ -8,6 +8,8 @@ const Home = () => {
       const response = await fetch(`https://gemweb-backend-git-main-sabir-alis-projects.vercel.app/api/product/get`);
       if (response.ok) {
         const data = await response.json();
+        console.log(data);
+        
         setListing(data);
       }
     } catch (error) {
