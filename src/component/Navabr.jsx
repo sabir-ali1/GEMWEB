@@ -9,7 +9,7 @@ const Navabr = () => {
             <Link to="/"><button className='border px-10 py-1'>Home</button></Link>
             <Link to="/register"><button className='border px-10 py-1'>Register Now</button></Link>
             <Link to="/login"><button className='border px-10 py-1'>Login</button></Link>
-            <Link to="/login"><button className='border px-10 py-1'>Login</button></Link>
+           
         </div>
 
         </>
