@@ -20,7 +20,7 @@ const Login = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await fetch(`https://gemweb-backend-git-main-sabir-alis-projects.vercel.app/api/auth/login`, {
+            const response = await fetch(`https://gemweb-backend.vercel.app/api/auth/login`, {
                 method: "POST",
                 headers: {
                     'Content-Type': 'application/json'
