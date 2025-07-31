@@ -5,7 +5,7 @@ const Home = () => {
 
   const getallListing = async () => {
     try {
-      const response = await fetch(`http://localhost:5000/api/product/get`);
+      const response = await fetch(`https://gemweb-backend-git-main-sabir-alis-projects.vercel.app/api/product/get`);
       if (response.ok) {
         const data = await response.json();
         setListing(data);
